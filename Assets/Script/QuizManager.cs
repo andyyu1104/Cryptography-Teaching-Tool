@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
 {
@@ -8,12 +10,14 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
 
-    public string QuestionText;
+    public TextMeshProUGUI QuestionText;
 
     void generateQuestion(){
         currentQuestion = Random.Range(0, QnA.Count);
 
-        QuestionText = QnA[currentQuestion].Quesiton;
+        QuestionText.text = QnA[currentQuestion].Quesiton;
+        setAnwsers();
+
     }
 
     // Start is called before the first frame update
@@ -22,8 +26,23 @@ public class QuizManager : MonoBehaviour
         generateQuestion();        
     }
 
-    void setAnwser(){
-        
+    public void correct()
+    {
+        QnA.RemoveAt(currentQuestion);
+        generateQuestion();
+    }
+
+    void setAnwsers(){
+        for (int i = 0; i < options.Length; i++)
+        {
+            options[i].GetComponent<AnswerScript>().isCorrect = false;
+            options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = QnA[currentQuestion].Answers[i];
+
+            if(QnA[currentQuestion].CorrectAnswer == i+1)
+            {
+                options[i].GetComponent<AnswerScript>().isCorrect = true;
+            }
+        }
     }
 
     // Update is called once per frame
