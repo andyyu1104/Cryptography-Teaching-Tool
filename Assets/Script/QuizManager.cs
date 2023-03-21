@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
@@ -10,23 +10,60 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
 
+    public GameObject Quizpanel;
+    public GameObject GoPanel;
+
     public TextMeshProUGUI QuestionText;
+    public TextMeshProUGUI ScoreText;
+    
+    int totalQuestions = 0;
+    public int score;
 
     void generateQuestion(){
-        currentQuestion = Random.Range(0, QnA.Count);
+        if (QnA.Count > 0)
+        {
+            currentQuestion = Random.Range(0, QnA.Count);
 
-        QuestionText.text = QnA[currentQuestion].Quesiton;
-        setAnwsers();
+            QuestionText.text = QnA[currentQuestion].Quesiton;
+            setAnwsers();
+        } 
+        else 
+        {
+            Debug.Log("Out of question.");
+            GameOver();
+        }
+        
 
+    }
+
+    public void retry()
+    {
+        SceneManager.LoadScene("GameScene");
+    }
+
+    void GameOver()
+    {
+        Quizpanel.SetActive(false);
+        GoPanel.SetActive(true);
+        ScoreText.text = score + "/" + totalQuestions;
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        totalQuestions = QnA.Count;
+        GoPanel.SetActive(false);
         generateQuestion();        
     }
 
     public void correct()
+    {
+        score+=1;
+        QnA.RemoveAt(currentQuestion);
+        generateQuestion();
+    }
+
+    public void wrong()
     {
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
