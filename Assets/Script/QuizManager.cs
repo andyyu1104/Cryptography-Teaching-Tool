@@ -72,7 +72,7 @@ public class QuizManager : MonoBehaviour
         BlueDino.SetTrigger("CorrectAns");
         RedDino.SetTrigger("CorrectAns");
         YellowDino.SetTrigger("CorrectAns");
-        //.SetTrigger("CorrectAns");
+        GreenDino.SetTrigger("CorrectAns");
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
     }
@@ -83,6 +83,7 @@ public class QuizManager : MonoBehaviour
         BlueDino.SetTrigger("WrongAns");
         RedDino.SetTrigger("WrongAns");
         YellowDino.SetTrigger("WrongAns");
+        GreenDino.SetTrigger("WrongAns");
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
     }

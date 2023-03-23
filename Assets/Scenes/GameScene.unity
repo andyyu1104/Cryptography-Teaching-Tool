@@ -292,6 +292,10 @@ MonoBehaviour:
   GoPanel: {fileID: 1556456456}
   QuestionText: {fileID: 1154320234}
   ScoreText: {fileID: 800644226}
+  BlueDino: {fileID: 643980581}
+  RedDino: {fileID: 1515689202}
+  YellowDino: {fileID: 180803914}
+  GreenDino: {fileID: 1839070468}
   score: 0
 --- !u!4 &241277730
 Transform:
@@ -745,7 +749,7 @@ GameObject:
   - component: {fileID: 550047295}
   - component: {fileID: 550047294}
   m_Layer: 0
-  m_Name: CorrectAns
+  m_Name: CorrectAnsSFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1906,7 +1910,7 @@ GameObject:
   - component: {fileID: 1194080483}
   - component: {fileID: 1194080482}
   m_Layer: 0
-  m_Name: WrongAns
+  m_Name: WrongAnsSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2518,7 +2522,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515689200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 327.99997, y: -44.999996, z: 0}
+  m_LocalPosition: {x: 328, y: -44.999996, z: 0}
   m_LocalScale: {x: 94.39379, y: 94.39379, z: 94.39379}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3594,7 +3598,7 @@ GameObject:
   - component: {fileID: 1823458155}
   - component: {fileID: 1823458154}
   m_Layer: 0
-  m_Name: Good Day So Far!
+  m_Name: Good Day So Far!(BGM)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
