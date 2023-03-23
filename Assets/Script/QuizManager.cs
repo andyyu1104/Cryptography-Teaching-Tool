@@ -19,6 +19,11 @@ public class QuizManager : MonoBehaviour
 
     public TextMeshProUGUI QuestionText;
     public TextMeshProUGUI ScoreText;
+
+    public Animator BlueDino;
+    private Animator RedDino;
+    private Animator YellowDino;
+    private Animator GreenDino;
     
     int totalQuestions = 0;
     public int score;
@@ -64,6 +69,7 @@ public class QuizManager : MonoBehaviour
     {
         score+=1;
         CorrectSound.Play();
+        BlueDino.SetTrigger("CorrectAns");
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
     }
@@ -71,6 +77,7 @@ public class QuizManager : MonoBehaviour
     public void wrong()
     {
         WrongSound.Play();
+        BlueDino.SetTrigger("WrongAns");
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
     }
