@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 180803915}
   - component: {fileID: 180803914}
   m_Layer: 0
-  m_Name: Dino (2)
+  m_Name: YellowDino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -286,6 +286,8 @@ MonoBehaviour:
   - {fileID: 808004727}
   - {fileID: 572360583}
   currentQuestion: 0
+  CorrectSound: {fileID: 550047294}
+  WrongSound: {fileID: 1194080482}
   Quizpanel: {fileID: 1606558476}
   GoPanel: {fileID: 1556456456}
   QuestionText: {fileID: 1154320234}
@@ -874,7 +876,7 @@ GameObject:
   - component: {fileID: 572360585}
   - component: {fileID: 572360588}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: YellowButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1021,7 +1023,7 @@ GameObject:
   - component: {fileID: 643980582}
   - component: {fileID: 643980581}
   m_Layer: 0
-  m_Name: Dino
+  m_Name: BlueDino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1398,7 +1400,7 @@ GameObject:
   - component: {fileID: 808004729}
   - component: {fileID: 808004732}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: GreenButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1547,7 +1549,7 @@ GameObject:
   - component: {fileID: 921745520}
   - component: {fileID: 921745523}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RedButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2502,7 +2504,7 @@ GameObject:
   - component: {fileID: 1515689203}
   - component: {fileID: 1515689202}
   m_Layer: 0
-  m_Name: Dino (1)
+  m_Name: RedDino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3342,7 +3344,7 @@ GameObject:
   - component: {fileID: 1746213979}
   - component: {fileID: 1746213982}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: BlueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3721,7 +3723,7 @@ GameObject:
   - component: {fileID: 1839070469}
   - component: {fileID: 1839070468}
   m_Layer: 0
-  m_Name: Dino (3)
+  m_Name: GreenDino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
