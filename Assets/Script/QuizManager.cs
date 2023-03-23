@@ -10,6 +10,10 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
 
+    public AudioSource CorrectSound;
+
+    public AudioSource WrongSound;
+
     public GameObject Quizpanel;
     public GameObject GoPanel;
 
@@ -59,12 +63,14 @@ public class QuizManager : MonoBehaviour
     public void correct()
     {
         score+=1;
+        CorrectSound.Play();
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
     }
 
     public void wrong()
     {
+        WrongSound.Play();
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
     }
