@@ -286,7 +286,7 @@ MonoBehaviour:
     - Secret Key
     - Both Private key and Secret key
     - Ideal key
-    CorrectAnswer: 4
+    CorrectAnswer: 3
   - Quesiton: "What key do we need to make \u201CCAESAR\u201D become \u201CMKOCKB\u201D
       in Caesar Cipher?"
     Answers:
