@@ -266,20 +266,56 @@ MonoBehaviour:
     - Symmentricity
     - Cryptography
     CorrectAnswer: 4
-  - Quesiton: What is 1 + 1 = ?
+  - Quesiton: Which of the following subjective involves in cryptography?
     Answers:
-    - 3
-    - 4
-    - 2
-    - 1
-    CorrectAnswer: 3
-  - Quesiton: What is 4 + 1 = ?
-    Answers:
-    - 5
-    - 4
-    - 2
-    - 1
+    - Mathematics
+    - Physics
+    - Chemistry
+    - Biology
     CorrectAnswer: 1
+  - Quesiton: Which of the following are the applications of cryptography
+    Answers:
+    - Digital Signature
+    - Authentication
+    - Key Generation
+    - All the above
+    CorrectAnswer: 4
+  - Quesiton: Which of the following is the other name of symmentric key cryptography?
+    Answers:
+    - Private Key
+    - Secret Key
+    - Both Private key and Secret key
+    - Ideal key
+    CorrectAnswer: 4
+  - Quesiton: "What key do we need to make \u201CCAESAR\u201D become \u201CMKOCKB\u201D
+      in Caesar Cipher?"
+    Answers:
+    - 9
+    - 11
+    - 12
+    - 10
+    CorrectAnswer: 4
+  - Quesiton: An AES algorithm has _____ type pf block cipher?
+    Answers:
+    - Zero
+    - Asymmetric
+    - Symmetric
+    - All of the above
+    CorrectAnswer: 2
+  - Quesiton: Which of the following is the bit size of AES?
+    Answers:
+    - 128
+    - 256
+    - 192
+    - All of the above
+    CorrectAnswer: 4
+  - Quesiton: 128 bits plain text form of AES has __ bytes?
+    Answers:
+    - 12
+    - 14
+    - 16
+    - 18
+    CorrectAnswer: 3
   options:
   - {fileID: 921745518}
   - {fileID: 1746213977}
