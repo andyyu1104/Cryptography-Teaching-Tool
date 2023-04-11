@@ -1681,7 +1681,7 @@ GameObject:
   - component: {fileID: 1123574121}
   - component: {fileID: 1123574122}
   m_Layer: 0
-  m_Name: Characters_V3_Colour_135
+  m_Name: Detective
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1695,7 +1695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123574120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 597, y: -591, z: -9720}
+  m_LocalPosition: {x: -789, y: -395, z: -9720}
   m_LocalScale: {x: 1437.1697, y: 1437.1697, z: 1437.1697}
   m_ConstrainProportionsScale: 0
   m_Children: []
