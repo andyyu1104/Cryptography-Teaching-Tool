@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 444537429}
   - component: {fileID: 444537427}
   m_Layer: 5
-  m_Name: PauseButton
+  m_Name: SettingButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1871,7 +1871,7 @@ GameObject:
   - component: {fileID: 1062862534}
   - component: {fileID: 1062862533}
   m_Layer: 5
-  m_Name: PauseIcon
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 49fd0abe3acd2fd4b8803407d99763d6, type: 3}
+  m_Sprite: {fileID: -115001123, guid: 18be989c0209ca14391644eae9c8e002, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
