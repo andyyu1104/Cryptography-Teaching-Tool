@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Dino : MonoBehaviour
@@ -7,6 +8,7 @@ public class Dino : MonoBehaviour
     private Vector2 _direction = Vector2.right;
     private List<Transform> _segments = new List<Transform>();
     public Transform segmentPrefab;
+    public TextMeshProUGUI ScoreText;
 
 
     // Start is called before the first frame update
@@ -18,6 +20,7 @@ public class Dino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Score();
         if (Input.GetKeyDown(KeyCode.W))
         {
             _direction = Vector2.up;
@@ -71,4 +74,9 @@ public class Dino : MonoBehaviour
             ResetState();
         }
     }
+
+    private void Score(){
+        ScoreText.text = "Score:\n" + (_segments.Count-1);
+    }
+
 }
