@@ -2,14 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Dino : MonoBehaviour
 {
     private Vector2 _direction = Vector2.right;
     private List<Transform> _segments = new List<Transform>();
     public Transform segmentPrefab;
-    public TextMeshProUGUI ScoreText;
-
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI highestScoreText;
+    public Button teachingContentButton;
+    public AudioSource hitWallSfx;
+    public AudioSource glowSfx;
+    public GameObject saltSpawn;
+    private int _count = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +26,10 @@ public class Dino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_segments.Count >= 6)
+        {
+            teachingContentButton.interactable = true;
+        }
         Score();
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -29,11 +39,14 @@ public class Dino : MonoBehaviour
             _direction = Vector2.down;
         } else if (Input.GetKeyDown(KeyCode.A))
         {
+            this.transform.rotation = new Quaternion(0,180,0, 0);
             _direction = Vector2.left;
         } else if (Input.GetKeyDown(KeyCode.D))
         {
+            this.transform.rotation = new Quaternion(0,0,0, 0);
             _direction = Vector2.right;
         }
+        
     }
 
     private void FixedUpdate() {
@@ -50,7 +63,7 @@ public class Dino : MonoBehaviour
     }
 
     private void Grow(){
-        Transform segment = Instantiate(this.segmentPrefab);
+        Transform segment = Instantiate(this.segmentPrefab,saltSpawn.transform);
         segment.position = _segments[_segments.Count - 1].position;
         _segments.Add(segment);
     }
@@ -69,14 +82,21 @@ public class Dino : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Food"){
+            glowSfx.Play();
             Grow();
         } else if (other.tag == "Obstacle"){
+            hitWallSfx.Play();
             ResetState();
         }
     }
 
     private void Score(){
-        ScoreText.text = "Score:\n" + (_segments.Count-1);
+        if(_segments.Count > _count){
+            _count = _segments.Count;
+            highestScoreText.text = "Highest:\n" + (_segments.Count-1);  
+        }
+        scoreText.text = "Score:\n" + (_segments.Count-1);
     }
 
+    
 }
