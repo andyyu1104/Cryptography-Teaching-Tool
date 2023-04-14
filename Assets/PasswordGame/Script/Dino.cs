@@ -31,17 +31,17 @@ public class Dino : MonoBehaviour
             teachingContentButton.interactable = true;
         }
         Score();
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             _direction = Vector2.up;
-        } else if (Input.GetKeyDown(KeyCode.S))
+        } else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             _direction = Vector2.down;
-        } else if (Input.GetKeyDown(KeyCode.A))
+        } else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             this.transform.rotation = new Quaternion(0,180,0, 0);
             _direction = Vector2.left;
-        } else if (Input.GetKeyDown(KeyCode.D))
+        } else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             this.transform.rotation = new Quaternion(0,0,0, 0);
             _direction = Vector2.right;
