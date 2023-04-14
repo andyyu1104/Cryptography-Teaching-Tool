@@ -9,6 +9,7 @@ public class Foods : MonoBehaviour
     private SpriteRenderer currFood;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,7 @@ public class Foods : MonoBehaviour
 
         
         currFood = Instantiate(food[Random.Range(0, food.Count)], new Vector3(Mathf.Round(x),Mathf.Round(y),0.0f), new Quaternion());
-        currFood.transform.position = new Vector3(Mathf.Round(x),Mathf.Round(y),0.0f);
+        currFood.transform.parent = gameObject.transform;
     }
 
     
@@ -36,6 +37,10 @@ public class Foods : MonoBehaviour
         if (currFood == null)
         {
             RandomizePosition();
+        }
+        if(!gameObject.activeInHierarchy)
+        {
+            Destroy(currFood);
         }
     }
 }
