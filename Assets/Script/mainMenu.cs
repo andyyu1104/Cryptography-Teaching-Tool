@@ -7,7 +7,7 @@ public class mainMenu : MonoBehaviour
 {
 
     public void PlayGame(){
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("TopicSelection");
     }
 
     public void QuitGame(){
@@ -19,15 +19,4 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("StartingMenuScene");
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
