@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Food
   - Obstacle
+  - TopWall
+  - BottomWall
+  - Goblin
+  - Skeleton
+  - Knight
   layers:
   - Default
   - TransparentFX
