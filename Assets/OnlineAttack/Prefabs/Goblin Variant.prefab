@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3964119698938148507, guid: 55feb9cade7e05c469c815129136777e, type: 3}
+      propertyPath: sprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 371591337, guid: 5edf6cb359619a84b8d2223a3e4bec6a, type: 3}
+    - target: {fileID: -3964119698938148507, guid: 55feb9cade7e05c469c815129136777e, type: 3}
+      propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: -1812679742, guid: 5edf6cb359619a84b8d2223a3e4bec6a, type: 3}
     - target: {fileID: 457944648815470466, guid: 55feb9cade7e05c469c815129136777e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -33,19 +41,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
-      propertyPath: m_LocalRotation.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -53,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2153278527693322107, guid: 55feb9cade7e05c469c815129136777e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -61,6 +69,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5416590706358122899, guid: 55feb9cade7e05c469c815129136777e, type: 3}
       propertyPath: m_Name
+      value: Goblin Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416590706358122899, guid: 55feb9cade7e05c469c815129136777e, type: 3}
+      propertyPath: m_TagString
       value: Goblin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
