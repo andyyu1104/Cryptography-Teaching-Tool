@@ -41,6 +41,7 @@ public class Monster : MonoBehaviour
         Move();
         if(health <= 0){
             Destroy(gameObject);
+            GameScore.score++;
         }
     }
 
@@ -49,6 +50,7 @@ public class Monster : MonoBehaviour
             health -= 1;
         } else if(other.tag == "Goal"){
             Destroy(gameObject);
+            GameScore.score--;
         }
         
     }
