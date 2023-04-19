@@ -10,6 +10,10 @@ public class TopicSelection : MonoBehaviour
         SceneManager.LoadScene("PasswordGame");
     }
 
+    public void OA(){
+        SceneManager.LoadScene("OnlineAttack");
+    }
+
     public void Quiz(){
         SceneManager.LoadScene("QuizScene");
     }

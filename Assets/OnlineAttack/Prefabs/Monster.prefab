@@ -125,6 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a23cd2337943241a818e46dc715c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GetScoreSfx: {fileID: 5835119125979247901, guid: 8aab24eb7d202ff49bab8f97fe94b6be, type: 3}
+  GetHitSfx: {fileID: 4533628769618939078, guid: 0b7a8ec47630c8a40b01115ecd4a98b1, type: 3}
   sprites:
   - {fileID: 0}
   - {fileID: 0}

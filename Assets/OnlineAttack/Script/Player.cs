@@ -8,8 +8,8 @@ public class Player : MonoBehaviour
     //public SpriteRenderer[] spriteRenderers = new SpriteRenderer[2];
     public float moveSpeed = 5.0f;
     public FireBall fireball;
-
-    public GameObject FireBallSpwan;
+    public AudioSource fireSFx;
+    public GameObject fireBallSpwan;
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +47,9 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(this.fireball,this.transform.position, Quaternion.identity, FireBallSpwan.transform);
-        
+        Instantiate(this.fireball,this.transform.position, Quaternion.identity, fireBallSpwan.transform);
+        fireSFx.Play();
     }
+
+
 }
