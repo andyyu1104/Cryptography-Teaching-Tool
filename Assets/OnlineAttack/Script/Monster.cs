@@ -39,9 +39,18 @@ public class Monster : MonoBehaviour
     void Update()
     {
         Move();
-        if(health == 0){
+        if(health <= 0){
             Destroy(gameObject);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "FireBall"){
+            health -= 1;
+        } else if(other.tag == "Goal"){
+            Destroy(gameObject);
+        }
+        
     }
 
     void FixedUpdate(){

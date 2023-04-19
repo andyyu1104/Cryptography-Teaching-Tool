@@ -11,6 +11,8 @@ TagManager:
   - Goblin
   - Skeleton
   - Knight
+  - FireBall
+  - Goal
   layers:
   - Default
   - TransparentFX
