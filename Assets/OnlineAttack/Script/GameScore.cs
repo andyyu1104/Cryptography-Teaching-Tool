@@ -33,7 +33,11 @@ public class GameScore : MonoBehaviour
     }
 
     public static void LoseScore(){
-        _score--;
+        if (_score>0)
+        {
+            _score--;
+        }
+        
     }
     
 }

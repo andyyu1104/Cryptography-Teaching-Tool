@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
 
     //public SpriteRenderer[] spriteRenderers = new SpriteRenderer[2];
-    public float moveSpeed = 5.0f;
+    public float moveSpeed = 10.0f;
     public FireBall fireball;
     public AudioSource fireSFx;
     public GameObject fireBallSpwan;

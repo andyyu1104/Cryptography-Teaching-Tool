@@ -16,7 +16,7 @@ public class Monster : MonoBehaviour
         this.transform.rotation = new Quaternion(0,180,0,0);
         if (this.tag == "Goblin")
         {
-            health = 3;
+            health = 2;
             moveSpeed = 5.0f;
         } else if (this.tag == "Skeleton")
         {
@@ -24,7 +24,7 @@ public class Monster : MonoBehaviour
             moveSpeed = 8.0f;
         } else if (this.tag == "Knight")
         {
-            health = 5;
+            health = 3;
             moveSpeed = 3.0f;
         }
     }
