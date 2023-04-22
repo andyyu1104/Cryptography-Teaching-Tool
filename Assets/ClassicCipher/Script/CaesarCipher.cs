@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class CaesarCipher : MonoBehaviour
 {
-    public TMP_InputField playerInput;
     public TextMeshProUGUI plainAlphabet;
     public TextMeshProUGUI encryptedAlphabet;
     public TextMeshProUGUI keyText;
