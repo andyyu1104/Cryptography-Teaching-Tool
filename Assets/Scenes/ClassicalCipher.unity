@@ -515,7 +515,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 178005398}
+      - m_Target: {fileID: 2084232007}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -4852,7 +4852,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1194723821}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7271d92d2a82904a8a4605cf4f87c15, type: 3}
+  m_Script: {fileID: 11500000, guid: b1c692b55227a4246aa6e26811546424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1194723823
@@ -7583,7 +7583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2084232008
 RectTransform:
   m_ObjectHideFlags: 0
