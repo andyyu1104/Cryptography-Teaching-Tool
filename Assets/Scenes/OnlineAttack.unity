@@ -2534,7 +2534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a292e306af2d740ab97e0d86d95d7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 10
   fireball: {fileID: 8837116740053913471, guid: 8bffd9571f2a66f41be3cee237058fa8, type: 3}
   fireSFx: {fileID: 1034600532}
   fireBallSpwan: {fileID: 1855770562}
