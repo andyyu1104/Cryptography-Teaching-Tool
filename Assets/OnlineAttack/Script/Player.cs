@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
 
     //public SpriteRenderer[] spriteRenderers = new SpriteRenderer[2];
-    public float moveSpeed = 10.0f;
+    public float moveSpeed = 7.0f;
     public FireBall fireball;
     public AudioSource fireSFx;
     public GameObject fireBallSpwan;
@@ -25,9 +25,9 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "TopWall"){
-            this.transform.position += Vector3.down;
+            this.transform.position += new Vector3(0,-2,0);
         } else if(other.tag == "BottomWall"){
-            this.transform.position += Vector3.up;
+            this.transform.position += new Vector3(0,2,0);
         }
     }
 
