@@ -220,11 +220,11 @@ RectTransform:
   m_LocalScale: {x: 2.5999, y: 2.5999, z: 2.5999}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1905627286}
   - {fileID: 1345449752}
   - {fileID: 535402393}
   - {fileID: 1129500772}
   - {fileID: 777658283}
-  - {fileID: 1905627286}
   - {fileID: 1847219145}
   - {fileID: 900104125}
   - {fileID: 289303014}
@@ -414,7 +414,7 @@ RectTransform:
   m_GameObject: {fileID: 289303013}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5038, y: 1.5038, z: 1.5038}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1728614069}
@@ -423,7 +423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00018310547, y: -104.8227}
+  m_AnchoredPosition: {x: -22.000008, y: -173.97}
   m_SizeDelta: {x: 176.42, y: 47.9979}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &289303015
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 535402392}
   - component: {fileID: 535402391}
   m_Layer: 0
-  m_Name: Dino (1)
+  m_Name: RedDino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -731,12 +731,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535402390}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 239.18362, y: 18.000004, z: -0.62640834}
+  m_LocalPosition: {x: 270, y: 44, z: -0.62640834}
   m_LocalScale: {x: 262.39188, y: 262.39188, z: 262.39188}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44241622}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &640120851
 GameObject:
@@ -940,7 +940,7 @@ GameObject:
   - component: {fileID: 777658282}
   - component: {fileID: 777658281}
   m_Layer: 0
-  m_Name: Dino (3)
+  m_Name: GreenDino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1026,12 +1026,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777658280}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 239.18362, y: -132.83424, z: -0.62640834}
+  m_LocalPosition: {x: 270, y: -132.83424, z: -0.62640834}
   m_LocalScale: {x: 262.39188, y: 262.39188, z: 262.39188}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44241622}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &818564566
 GameObject:
@@ -1303,7 +1303,7 @@ RectTransform:
   m_GameObject: {fileID: 900104124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5038, y: 1.5038, z: 1.5038}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1925754759}
@@ -1312,7 +1312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00018310547, y: -45.822693}
+  m_AnchoredPosition: {x: -22.000008, y: -85.241974}
   m_SizeDelta: {x: 176.42, y: 47.9979}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900104126
@@ -1565,7 +1565,7 @@ GameObject:
   - component: {fileID: 1129500771}
   - component: {fileID: 1129500770}
   m_Layer: 0
-  m_Name: Dino (2)
+  m_Name: YellowDino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1651,12 +1651,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129500769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -243.99998, y: -132.83424, z: -0.62640834}
+  m_LocalPosition: {x: -273, y: -132.83424, z: -0.62640834}
   m_LocalScale: {x: 262.39188, y: 262.39188, z: 262.39188}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44241622}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1175175364
 GameObject:
@@ -1881,7 +1881,7 @@ GameObject:
   - component: {fileID: 1345449751}
   - component: {fileID: 1345449753}
   m_Layer: 0
-  m_Name: Dino
+  m_Name: BlueDino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1947,12 +1947,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345449750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -244, y: 18, z: -0.62640834}
+  m_LocalPosition: {x: -273, y: 44, z: -0.62640834}
   m_LocalScale: {x: 262.39188, y: 262.39188, z: 262.39188}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44241622}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1345449753
 Animator:
@@ -2736,7 +2736,7 @@ RectTransform:
   m_GameObject: {fileID: 1847219144}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5038, y: 1.5038, z: 1.5038}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1175175365}
@@ -2745,7 +2745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00018310547, y: 18.176292}
+  m_AnchoredPosition: {x: -22, y: 11}
   m_SizeDelta: {x: 176.42, y: 47.9979}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847219146
@@ -2902,12 +2902,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44241622}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 128}
-  m_SizeDelta: {x: 597.2385, y: 78.2824}
+  m_AnchoredPosition: {x: -14, y: 118}
+  m_SizeDelta: {x: 611.24, y: 136.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905627287
 MonoBehaviour:
@@ -2929,7 +2929,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cryptographic Quiz
+  m_text: "Let's Learn \nCryptography"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2956,15 +2956,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 61.3
-  m_fontSizeBase: 36
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
