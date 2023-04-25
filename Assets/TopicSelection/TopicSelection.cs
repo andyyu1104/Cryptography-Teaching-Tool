@@ -18,7 +18,7 @@ public class TopicSelection : MonoBehaviour
     }
 
     public void CC(){
-        SceneManager.LoadScene("ClassicCipher");
+        SceneManager.LoadScene("ClassicalCipher");
     }
 
     public void Quiz(){
