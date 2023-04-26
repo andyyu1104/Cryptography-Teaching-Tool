@@ -17,7 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizScene.unity
     guid: 92df1af272ae4474eb8c4b76efaab99f
-  - enabled: 0
-    path: Assets/Scenes/GameScene.unity
+  - enabled: 1
+    path: Assets/Scenes/OnlineAttack.unity
     guid: 1587a1f7c1bcbd0439f87fe97ff117b5
+  - enabled: 1
+    path: Assets/Scenes/ClassicalCipher.unity
+    guid: 42d8aa6dc9fa8694884a80438be284b0
+  - enabled: 1
+    path: Assets/Scenes/ModernCipher.unity
+    guid: 107c534a9c19a5b4bade2d27e218ef37
   m_configObjects: {}
