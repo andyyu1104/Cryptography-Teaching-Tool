@@ -21,6 +21,10 @@ public class TopicSelection : MonoBehaviour
         SceneManager.LoadScene("ClassicalCipher");
     }
 
+    public void MC(){
+        SceneManager.LoadScene("ModernCipher");
+    }
+
     public void Quiz(){
         SceneManager.LoadScene("QuizScene");
     }
