@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -14,14 +12,6 @@ public class ColumnarCipher : MonoBehaviour
     public TextMeshProUGUI playerPlainText;
     public TextMeshProUGUI playerCipherText;
     public TextMeshProUGUI cipherText;
-    
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -33,7 +23,7 @@ public class ColumnarCipher : MonoBehaviour
 
     private string OutputCipherText(){
         string output= "";
-        if(playerPlainText.text.Length <= key){
+        if(playerPlainText.text.Length-1 <= key){
             output = playerPlainText.text;
         } else {
             output += codeText();
