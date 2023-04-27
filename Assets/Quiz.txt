@@ -1,0 +1,109 @@
+Caesar Cipher
+
+What is type of Caesar Cipher?
+Transposition Cipher
+Poly-Alphabet Cipher
+Polygrammic Cipher
+Substitution Cipher*
+
+How many keys does Caesar Cipher have?
+27
+28
+29
+26*
+
+Which key does the same result with key 0 in Caesar Cipher?
+3
+9
+26*
+23
+
+What is the ciphertext of "Hello" if the key is 4 in Caesar Cipher?
+Lipps*
+Olssv
+Jpwoly
+ade
+
+At what key does "CAESAR" become "MKOCKB" in Caesar Cipher?
+9
+10*
+11
+12
+
+--
+Columnar Cipher
+
+What is type of Columnar Cipher?
+Transposition Cipher*
+Poly-Alphabet Cipher
+Polygrammic Cipher
+Substitution Cipher
+
+What is the plaintext of "APEPL" if the key is 2 in Columnar cipher?
+APPLE*
+PALEP
+EPPAL
+LAPPE
+
+What is the ciphertext of "COMFORTABLE" with key 4?
+COBORLMTEFA*
+AFETMLROBOC
+ORLMTEFACOB
+COBMTEORLFA
+
+--
+AES
+
+An AES algorithm has _____ type pf block cipher?
+Zero
+Symmetric*
+Asymmetric
+All of the above
+
+Which of the following is the bit size of AES?
+128
+256
+192
+All of them*
+
+How many encryption rounds in AES if the key length is 192-bit?
+10
+12*
+14
+16
+--
+DES 
+
+How many encryption rounds in DES?
+16*
+64
+56
+2
+
+What does DES stand for in cryptography?
+Decrypted Electric Standard
+Data Encryption Standard*
+Data Education Sample
+Dear Elder Sam
+
+--
+Password Salting
+
+What does password salting protecting?
+pepper
+password*
+egg
+username
+--
+Online Attack
+Which of the following belongs to malware?
+virus
+worm
+trojan
+All of them*
+
+What is the way to prevent online attack?
+use a strong password
+use anti-virus software
+keep updating software
+All of them*
