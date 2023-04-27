@@ -47,7 +47,7 @@ public class QuizManager : MonoBehaviour
 
     public void retry()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("QuizScene");
     }
 
     void GameOver()
