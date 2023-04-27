@@ -28,13 +28,13 @@ public class QuizManager : MonoBehaviour
     int totalQuestions = 0;
     public int score;
 
-    void generateQuestion(){
+    void GenerateQuestion(){
         if (QnA.Count > 0)
         {
             currentQuestion = Random.Range(0, QnA.Count);
 
             QuestionText.text = QnA[currentQuestion].Quesiton;
-            setAnwsers();
+            SetAnwsers();
         } 
         else 
         {
@@ -62,10 +62,10 @@ public class QuizManager : MonoBehaviour
     {
         totalQuestions = QnA.Count;
         GoPanel.SetActive(false);
-        generateQuestion();        
+        GenerateQuestion();        
     }
 
-    public void correct()
+    public void Correct()
     {
         score+=1;
         CorrectSound.Play();
@@ -74,10 +74,10 @@ public class QuizManager : MonoBehaviour
         YellowDino.SetTrigger("CorrectAns");
         GreenDino.SetTrigger("CorrectAns");
         QnA.RemoveAt(currentQuestion);
-        generateQuestion();
+        GenerateQuestion();
     }
 
-    public void wrong()
+    public void Wrong()
     {
         WrongSound.Play();
         BlueDino.SetTrigger("WrongAns");
@@ -85,10 +85,10 @@ public class QuizManager : MonoBehaviour
         YellowDino.SetTrigger("WrongAns");
         GreenDino.SetTrigger("WrongAns");
         QnA.RemoveAt(currentQuestion);
-        generateQuestion();
+        GenerateQuestion();
     }
 
-    void setAnwsers(){
+    void SetAnwsers(){
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
