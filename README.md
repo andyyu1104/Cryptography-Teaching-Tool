@@ -32,3 +32,20 @@ In this project, I have interviewed one secondary school child and one primary s
 # Game Details
 <p>The game is published on <a href="https://andyyu1104.itch.io/cryptographylearningtool">itch.io</a>.</p>
 <p>Platform: Windows</p>
+<p>Published Date: Apr 27, 2023</p>
+
+# Credit
+<p>Credit:</p>
+<ul>
+  <li><a href="https://paperhatlizard.itch.io/cryos-mini-items">Cryo's Mini Items</a></li>
+  <li><a href="https://arks.itch.io/dino-characters">Dino: twitter@ScissorMarks</a></li>
+  <li><a href="https://coloralpha.itch.io/50-menu-interface-sfx">50 Menu Interface SFX</a></li>
+  <li><a href="https://danzmacabre.itch.io/free-8-bit-music-asset-pack">Free 8-bit Music Asset Pack: DanzMacabre- Music</a></li>
+  <li><a href="https://parabellum-games.itch.io/retro-rpg-character-pack">Retro RPG Character Pack @Parabellum_Games</a></li>
+  <li><a href="https://handsomeunicorn.itch.io/fireball-sprite">Fireball Sprite</a></li>
+  <li><a href="https://garoslaw.itch.io/monolith-ost">Monolith OST</a></li>
+  <li><a href="https://greatdocbrown.itch.io/gamepad-ui">Gamepad UI / Controller Prompts Pack</a></li>
+  <li><a href="https://kicked-in-teeth.itch.io/button-ui">UI Buttons</a></li>
+  <li><a href="https://crusenho.itch.io/complete-gui-essential-pack">GUI Essential</a></li>
+</ul>
+
