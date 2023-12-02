@@ -1,4 +1,4 @@
-# FYproject (Title: Cryptography Teaching Tool)
+# Cryptography Teaching Tool
 <p>This is a final year computer sciecne project created by (Andy) Man Tik Yu.</p>
 
 # Description
